@@ -12,31 +12,31 @@ Projex is a project management tool built using **Vite + React** for the fronten
 ## 🔗 API Endpoints
 
 ### 🔑 Authentication
-- 🆕 `POST /api/auth/signup` - Register a new user  
-- 🔑 `POST /api/auth/signin` - Sign in using email/password  
-- 🐙 `GET /api/auth/github` - GitHub OAuth authentication  
-- 🚪 `POST /api/auth/signout` - Logout user  
+-  `POST /api/auth/signup` - Register a new user  
+-  `POST /api/auth/signin` - Sign in using email/password  
+-  `GET /api/auth/github` - GitHub OAuth authentication  
+-  `POST /api/auth/signout` - Logout user  
 
 ### 📂 Project Management
-- 📜 `GET /api/projects` - Fetch all projects  
-- ➕ `POST /api/projects` - Create a new project  
-- ✏️ `PUT /api/projects/:id` - Update a project  
-- ❌ `DELETE /api/projects/:id` - Delete a project  
+-  `GET /api/projects` - Fetch all projects  
+-  `POST /api/projects` - Create a new project  
+-  `PUT /api/projects/:id` - Update a project  
+-  `DELETE /api/projects/:id` - Delete a project  
 
 ### ✅ Task Management
-- 📌 `GET /api/projects/:id/tasks` - Get tasks for a project  
-- ➕ `POST /api/projects/:id/tasks` - Add a task to a project  
-- ✏️ `PUT /api/projects/:id/tasks/:taskId` - Update a task  
-- ❌ `DELETE /api/projects/:id/tasks/:taskId` - Delete a task  
+-  `GET /api/projects/:id/tasks` - Get tasks for a project  
+-  `POST /api/projects/:id/tasks` - Add a task to a project  
+-  `PUT /api/projects/:id/tasks/:taskId` - Update a task  
+-  `DELETE /api/projects/:id/tasks/:taskId` - Delete a task  
 
 ### 📤 File Upload
-- 🔗 `POST /api/upload/github` - Import a GitHub repository  
-- 📂 `POST /api/upload/file` - Upload CSV/PDF files  
+-  `POST /api/upload/github` - Import a GitHub repository  
+-  `POST /api/upload/file` - Upload CSV/PDF files  
 
 ### 🗓️ Calendar Events
-- 📅 `POST /api/calendar/add-event` - Add a new event  
-- 📋 `GET /api/calendar/events` - Get all scheduled events  
-- ❌ `DELETE /api/calendar/:id` - Remove an event  
+-  `POST /api/calendar/add-event` - Add a new event  
+-  `GET /api/calendar/events` - Get all scheduled events  
+-  `DELETE /api/calendar/:id` - Remove an event  
 
 ## 📂 Project Overview
 
