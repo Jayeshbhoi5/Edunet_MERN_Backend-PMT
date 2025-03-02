@@ -7,7 +7,7 @@ Projex is a project management tool built using **Vite + React** for the fronten
 - 📁 **Project Management** (Create, Update, Delete Projects)  
 - 📌 **Task Board** (Manage Tasks in Requested, To-Do, In Progress, Done Columns)  
 - 📤 **File Upload** (Import GitHub Projects, Upload CSV/PDF files)  
-- 📅 **Team Collaboration Calendar** (Schedule events, client calls, deadlines, and meetings)  
+- 📅 **Calendar** (Schedule events, client calls, deadlines, and meetings)  
 
 ## 🔗 API Endpoints
 
